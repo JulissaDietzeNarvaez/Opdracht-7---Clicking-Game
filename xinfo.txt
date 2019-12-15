@@ -1,0 +1,121 @@
+Ok so here ill explain to you guys what you have to to.
+
+
+there are 3 files u need for this:
+
+    game.php
+    script.js
+    style.css
+
+
+
+Naming ID's
+
+naming your ID aint difficult, just keep counting up:
+    game1a
+    game2a
+    game3a
+
+julissa: you use:       game#a
+jelle: you use:         game#b
+roy: uses:              game#c
+
+The funtion names same way:
+    next1a
+    next2a
+    next3a
+
+julissa: you use:       next#a
+jelle: you use:         next#b
+roy: uses:              next#c
+
+
+
+Ill start at the game.php:
+
+    Below you will see all html code you need per game page. Ill explain what it does.
+
+    first i create the parent div. thats the entire box the game will be in. then i add an ID to it.
+    you all get your own way to name these.
+
+    Inside that div you put 2 other divs. !!!NOT IN EACHOTHER!!!
+    the one at the top gets the class "text"  (puches the optionbtnbox down)
+    the one below that gets the class "optionbtnbox"   (contains the buttons)
+
+    inside the optionbtnbox you but a button. the easyest way is to just copy paste them.
+    the only thing you need to change here are the !!!!"onclick events"!!!!
+    again all of us get our own way of naming
+
+    Thats all for the html part.
+
+==================================================================================================================================
+        <div id="game0a">
+            <div class="text">
+                <!-- this div exist only for creating a filled space so the buttons are placed on the bottom -->
+            </div>
+            <div class="optionbtnbox">
+                <button type="button" onclick="next1a()" class="btn-dark btn-outline-warning optionbtn">Redirect buttons</button>
+                <button type="button" onclick="next1b()" class="btn-dark btn-outline-warning optionbtn">Redirect buttons</button>
+                <button type="button" onclick="next1c()" class="btn-dark btn-outline-warning optionbtn">Redirect buttons</button>
+            </div>
+        </div>
+==================================================================================================================================
+
+Next is the style.css part:
+
+The only thing you have to do right here is change the name of the id.
+again the way to name is at the top of this file.
+
+and you need to add an image. you dont have to add lines in the rest of the 
+css file i added the styling for it.
+
+==================================================================================================================================
+#game1a {
+  background-image: url(/assets/images/testimg.png);
+  box-shadow: 10px 10px 5px grey;
+  display: none;
+}
+==================================================================================================================================
+
+
+Last the script.js:
+
+this part also aint difficult.
+
+2 things you need to do here.
+
+the first line contains the name of the function that makes everything work.
+just change it to the name of the onclick in your html code.
+
+lest thing you need to do is change the 2 ID's in the 2 lines below that.
+just keep counting them up.
+
+so if it is like this:
+
+    var x = document.getElementById("game0a");
+    var y = document.getElementById("game1a");
+
+make it like this:
+
+    var x = document.getElementById("game1a");
+    var y = document.getElementById("game2a");
+
+
+==================================================================================================================================
+function next1a() {
+    var x = document.getElementById("game0a");
+    var y = document.getElementById("game1a");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      y.style.display = "block";
+    } else {
+      x.style.display = "block";
+      y.style.display = "none";
+    }
+  }
+==================================================================================================================================
+
+
+Thats all there is to this! Ofcourse if you want to add something your own do that!
+this is just the basics to everything keeps working.
+
