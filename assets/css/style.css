@@ -29,7 +29,7 @@ div {
 }
 
 #game0{
-  background-image: url(/assets/images/testimg.png);
+  background-image: url(/assets/images/fornow.gif);
   box-shadow: 10px 10px 5px grey;
 
 }
@@ -50,3 +50,6 @@ div {
   box-shadow: 10px 10px 5px grey;
   display: none;
 }
+
+
+
