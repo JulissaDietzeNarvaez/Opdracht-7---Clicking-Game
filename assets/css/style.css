@@ -79,6 +79,15 @@ div {
 /*Overall styling*/ 
 /*temp*/
 
+header{
+  text-align: center;
+  margin-top: 15%;
+}
+
+p{
+  font-size:  20px;
+}
+
 div {
   float: left;
   height: 100%;
