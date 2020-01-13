@@ -41,12 +41,29 @@ div {
   box-shadow: 10px 10px 5px grey;
   display: none;
 }
-
+/* dit is voor jelle */
 #game1b {
   background-image: url(/assets/images/testimgs.png);
   box-shadow: 10px 10px 5px grey;
   display: none;
 }
+
+/* Royke */
+#game2b {
+  background-image: url(/assets/images/testimgs.png);
+  box-shadow: 10px 10px 5px grey;
+  display: none;
+}
+
+#game3b {
+  background-image: url(/assets/images/testimgs.png);
+  box-shadow: 10px 10px 5px grey;
+  display: none;
+}
+
+
+/* dit is voor roy */
+
 
 #game1c {
   background-image: url(/assets/images/testimgs.png);
