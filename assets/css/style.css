@@ -1,3 +1,23 @@
+/*landingspage*/
+.sidebar{
+  background-color: gray;
+  width: 18%;
+  margin: 0% !important;
+}
+
+.explain-box{
+  background-color:  darkgray;
+  width:  82%;
+  margin:  0% !important;
+} 
+
+.full-page{
+  margin:   0% !important;
+  padding:  0% !important;
+  height: 100vh !important;
+}
+
+/*Overall styling*/ 
 .clearer{
   clear: none;
 }
@@ -28,56 +48,10 @@ div {
   height: 50px;
   margin-left: 3%;
   margin-right: 3%;
+  margin-top:   65%;
   text-align: center;
   border-radius: 6px;
 }
-
-#game0{
-  background-image: url(/assets/images/fornow.gif);
-  box-shadow: 10px 10px 5px grey;
-
-}
-
-#game1a {
-  background-image: url(/assets/images/testimgs.png);
-  box-shadow: 10px 10px 5px grey;
-  display: none;
-}
-
-#game1b {
-  background-image: url(/assets/images/testimgs.png);
-  box-shadow: 10px 10px 5px grey;
-  display: none;
-}
-#game1c {
-  background-image: url(/assets/images/testimgs.png);
-  box-shadow: 10px 10px 5px grey;
-  display: none;
-}
-
-
-/*landingspage*/
-
-.sidebar{
-  background-color: gray;
-  width: 18%;
-  margin: 0% !important;
-}
-
-.explain-box{
-  background-color:  darkgray;
-  width:  82%;
-  margin:  0% !important;
-} 
-
-.full-page{
-  margin:   0% !important;
-  padding:  0% !important;
-  height: 100vh !important;
-}
-
-/*Overall styling*/ 
-/*temp*/
 
 header{
   text-align: center;
@@ -169,20 +143,6 @@ p {
 
 }
 
-.explain-box-style {
-  border: #ffc107 solid;
-  border-width: 1px;
-  width: 99%;
-  height: 100%;
-  border-radius: 4px;
-  padding: 1.5%;
-  margin-left: 0.4%;
-  /* shadow */
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-}
-
 .sidebar-foot {
   background-color: rgb(53, 53, 53);
   width: 14.2%;
@@ -201,12 +161,21 @@ p {
 /*Images are named as (Part of the story) followed by (the number) for example Intro1*/
 /*Text is displayed as (Part of the story) followed by text*/
 /*Screaming is displayed as (Part of the story) followed by scream*/
-.Family-Scream{
-  padding-top:    140%;
-  padding-left:   22%;
-}
 
-.Intro1{
+/*Intro CSS*/
+/*Jelle CSS*/
+.Intro1 {
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
   background-image: url("/assets/images/IntroImage1.jpg");
 }
 
@@ -215,15 +184,133 @@ p {
   padding-left:  3%;
 }
 
-.Intro2{
+.Intro2 {
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
   background-image: url("/assets/images/IntroImage2.jpeg");
 }
 
+/*Family Branch CSS*/
 .Family-text{
   padding-top:  80%;
   padding-left: 3%;
 }
 
+.Family-Scream{
+  padding-top:    140%;
+  padding-left:   22%;
+}
+
 .Family1{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
   background-image: url("/assets/images/FamilyImage2.jpg");
+}
+
+.Family2{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage3.jpg");
+}
+
+.Family3{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage4.png");
+}
+
+.Family4{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage5.jpg");
+}
+
+.Family5{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage6.jpg");
+}
+
+.Family6{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage7.jpeg");
+}
+
+.Family7{
+  border: #ffc107 solid;
+  border-width: 1px;
+  width: 99%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 1.5%;
+  margin-left: 0.4%;
+  /* shadow */
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  background-image: url("/assets/images/FamilyImage8.jpg");
 }
