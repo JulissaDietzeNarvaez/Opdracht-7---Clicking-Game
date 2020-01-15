@@ -164,6 +164,13 @@ p {
 
 /*Intro CSS*/
 /*Jelle CSS*/
+/*Styling for the text in the intro*/
+.Intro-text{
+  padding-top:  80%;
+  padding-left:  3%;
+}
+
+/*Styling for the images in the intro*/
 .Intro1 {
   border: #ffc107 solid;
   border-width: 1px;
@@ -177,11 +184,6 @@ p {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
   background-image: url("/assets/images/IntroImage1.jpg");
-}
-
-.Intro-text{
-  padding-top:  80%;
-  padding-left:  3%;
 }
 
 .Intro2 {
@@ -200,16 +202,19 @@ p {
 }
 
 /*Family Branch CSS*/
+/*Styling for the text in the family branch*/
 .Family-text{
   padding-top:  65%;
   padding-left: 3%;
 }
 
+/*Styling for when someone is screaming something in the family branch*/
 .Family-Scream{
   padding-top:    140%;
   padding-left:   22%;
 }
 
+/*Styling for the murderer ending*/
 .Murderer{
   border: #ffc107 solid;
   border-width: 1px;
@@ -225,6 +230,7 @@ p {
   background-image: url("/assets/images/YouAreAMurdererEnding.jpg");
 }
 
+/*Styling for the escaped ending*/
 .EscapeTheFamily{
   border: #ffc107 solid;
   border-width: 1px;
@@ -240,6 +246,7 @@ p {
   background-image: url("/assets/images/EscapeTheFamilyEnding.jpg");
 }
 
+/*Styling for the deathscreen*/
 .DeathScreen{
   border: #ffc107 solid;
   border-width: 1px;
@@ -255,6 +262,7 @@ p {
   background-image: url("/assets/images/YouAreDead.png");
 }
 
+/*Styling for images in the family branch*/
 .Family1{
   border: #ffc107 solid;
   border-width: 1px;
